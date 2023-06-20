@@ -3,25 +3,24 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main -Entry point
  *
- * Description: false or true validation
+ * Description: A C progam that printswith printf function.
  *
- * Return : 0 (success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
-
 {
-	int n;
+	float  n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positvie\n", n);
+		printf("%f is positvie\n", n);
 	else if (n == 0)
-		printf("%d is zero\n", n);
+		printf("%f is zero\n", n);
 	else
-		printf("%d is negative\n", n);
+		printf("%f is negative\n", n);
 	return (0);
 }
