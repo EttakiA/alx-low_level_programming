@@ -16,13 +16,13 @@ void times_table(void)
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar(48);
-		for (nult = 1; nult <= 9 nult++)
+		for (nult = 1; nult <= 9; nult++)
 		{
 
 			_putchar('.');
 			_putchar(' ');
 
-			prod = num * mult;
+			prod = num * nult;
 			/*
 			 * put space if product is a single number
 			 * place the first digit if its two numbers
