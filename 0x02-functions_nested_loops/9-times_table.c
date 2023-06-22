@@ -4,7 +4,7 @@
  * times_table - prints the 9 times table
  *
  * Exemple Table
- * 0, 0, 0, 0 ..
+ * 0, 0, 0, 0, ..
  * 0, 1, 2, 3, ..
  *
 */
@@ -19,7 +19,7 @@ void times_table(void)
 		for (nult = 1; nult <= 9; nult++)
 		{
 
-			_putchar('.');
+			_putchar(',');
 			_putchar(' ');
 
 			prod = num * nult;
