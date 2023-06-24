@@ -9,7 +9,7 @@
  * Return: return results
 */
 
-int nul(int a, int b).
+int mul(int a, int b).
 {
 	return (a * b);
 }
