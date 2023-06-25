@@ -42,6 +42,8 @@ void largest_prime_factor(long int num)
 	for (prmNu = 3; prmNu <= _sqr(num); prmNu += 2)
 	{
 		while (num % prmNu == 0)
+	{
+		while (num % prmNu == 0)
 		{
 			num = num / prmNu;
 			largest = prmNu;
@@ -61,8 +63,5 @@ void largest_prime_factor(long int num)
 int main(void)
 {
 	largest_prime_factor(612852475143);
-
-
 	return (0);
-
 }
